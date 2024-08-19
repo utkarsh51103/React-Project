@@ -1,0 +1,9 @@
+.active{
+    color: yellow;
+    transition: 0.3s ease;
+}
+
+.inactive{
+    color: black;
+    transition: 0.3s ease;
+}
