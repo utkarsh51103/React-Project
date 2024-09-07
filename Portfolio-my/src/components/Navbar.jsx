@@ -12,10 +12,10 @@ function Navbar(props) {
         <img className="mx-10 w-10" src={logo} alt="logo" />
       </div>
       <div className="flex gap-4 m-8 text-2xl items-center">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
-        <FaSquareXTwitter />
+        <a href="https://www.linkedin.com/in/utkarsh-sharma-78a007259/" ><FaLinkedin /></a>
+        <a href="https://github.com/utkarsh51103" > <FaGithub /></a>
+        <a href="https://www.instagram.com/utkarsh511_"><FaInstagram /></a>
+        <a href="https://x.com/UtkrshShrma511" ><FaSquareXTwitter /></a>
       </div>
     </nav>
   );
