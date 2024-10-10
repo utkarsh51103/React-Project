@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import { Suspense } from 'react';
 import QRCode from "react-qr-code";
 function qrcode() {
 
@@ -20,7 +19,7 @@ function qrcode() {
               </div>
               <div>
                 <QRCode
-                id='qr-code-value'
+                id='qr-code'
                 value={qrcode} size={400} bgColor="#fff"
                 />
               </div>
