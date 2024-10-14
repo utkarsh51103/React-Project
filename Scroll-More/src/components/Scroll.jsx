@@ -26,12 +26,6 @@ function Scroll({url}) {
     },[url])
 
     const handlescrollpercentage = ()=>{
-        //   console.log(
-        //     document.body.scrollTop,
-        //     document.documentElement.scrollTop,
-        //     document.documentElement.scrollHeight,
-        //     document.documentElement.clientHeight
-        //   );
 
           const howmuchsroll = document.body.scrollTop || document.documentElement.scrollTop
 
